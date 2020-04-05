@@ -109,7 +109,7 @@ class About extends React.Component {
                 <div className="row button-section">
                     <div className="col-twelve">
                         <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
-                        <a href="#" title="Download CV" className="button button-primary">Download CV</a>
+                        <a href="Shubham_Gupta_s_CV.pdf" download="Shubham_Gupta_s_CV.pdf" title="Download CV" className="button button-primary">Download CV</a>
                     </div>
                 </div>
 
