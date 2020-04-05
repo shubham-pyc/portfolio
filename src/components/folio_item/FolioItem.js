@@ -1,10 +1,22 @@
 import React from "react";
 import { formatDescription } from "../../utils/formating";
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button'
 class FolioItem extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            show: false
+        }
 
     }
+    handleClose = () => {
+        this.setState({ show: false });
+    }
+    handleShow = () => {
+        this.setState({ show: true });
+    }
+
     getId = (withPrefix) => {
         let prefix = '';
         if (withPrefix) {
@@ -15,12 +27,17 @@ class FolioItem extends React.Component {
 
     getProjectLink = () => {
         if (this.props.data.projectLink) {
-            return <a href={this.props.data.projectLink}>Code</a>
+            return <a href={this.props.data.projectLink} target="_blank">Code</a>
         }
+        if (this.props.data.liveLink) {
+            return <a href={this.props.data.liveLink} target="_blank">Demo</a>
+        }
+
     }
 
     componentWillMount() {
         this.formantedDescription = formatDescription(this.props.data.projectDescription);
+
     }
 
     render() {
@@ -30,7 +47,7 @@ class FolioItem extends React.Component {
                 <div className="bgrid folio-item">
                     <div className="item-wrap">
                         <img src={this.props.data.imageUrl} alt="Liberty" />
-                        <a href={this.getId(true)} className="overlay">
+                        <a className="overlay" onClick={this.handleShow}>
                             <div className="folio-item-table">
                                 <div className="folio-item-cell">
                                     <h3 className="folio-title">{this.props.data.projectName}</h3>
@@ -43,25 +60,31 @@ class FolioItem extends React.Component {
                     </div>
                 </div>
 
+                <Modal show={this.state.show} onHide={this.handleClose}>
+                    <div className="popup-modal slider">
+                        <Modal.Body>
 
-                <div id={this.getId(false)} className="popup-modal slider mfp-hide">
+                            <div className="media">
+                                <img src={this.props.data.imageUrl} alt="" />
+                            </div>
 
-                    <div className="media">
-                        <img src="images/portfolio/arduino-04.png" alt="" />
+                            <div className="description-box">
+                                <h4>{this.props.data.projectName}</h4>
+                                <p>{this.formantedDescription}</p>
+                                <div className="categories">{this.props.data.projectCategory}</div>
+                            </div>
+
+
+
+                        </Modal.Body>
+                        <Modal.Footer>
+                            <div className="link-box">
+                                {this.getProjectLink()}
+                                <a className="popup-modal-dismiss" onClick={this.handleClose}>Close</a>
+                            </div>
+                        </Modal.Footer>
                     </div>
-
-                    <div className="description-box">
-                        <h4>{this.props.data.projectName}</h4>
-                        <p>{this.formantedDescription}</p>
-                        <div className="categories">{this.props.data.projectCategory}</div>
-                    </div>
-
-                    <div className="link-box">
-                        {this.getProjectLink()}
-                        <a href="#" className="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div>
+                </Modal>
             </React.Fragment>
 
         );

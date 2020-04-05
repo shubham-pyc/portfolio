@@ -6,16 +6,13 @@ class About extends React.Component {
         this.state = {
             skills: [
                 "Javascript",
-                "NodeJs",
+                "ReactJS, NodeJs",
                 "Jquery/HTML/CSS",
-                "ReactJS",
-                "AngularJs",
                 "Python",
                 "Databases: Posgres, MySql, Cassandra",
                 "Rest",
                 "Google Analytics",
                 "Decentralized Applications (DApps)",
-                "Solidity",
                 "Git/Github",
             ],
             about: `
@@ -26,13 +23,11 @@ class About extends React.Component {
             fullName: "Shubham Gupta",
             jobTitle: "Software Engineer",
             email: "shubhamg2404@gmail.com",
-            skillDescription: `I have been working on java for past 3 years starting from my college to my company. I am proficient
-            with multiple programming languages, but I mostly code in java, python,javascript,html, css and
-            their frameworks.`,
-            profileDescription: `My work horizon is vast and I have worked on many different technologies starting from java desktop
-            based applications to machine learning to micro controller programming to creating javascript games.
-        I love both hardware and software, I am a whole package and can mostly code in full stack.
-            `
+            skillDescription: `I am a passionate innovator who works on creating useful tools which ease out functioning & enable real-time actions resulting in effective operations & greater ROI for businesses.
+            I excel at analyzing pain areas, identifying values for any existing workflow or system and thus ideating & implementing new software products from head to tail to address identified concerns. I strive to constantly contribute in resolving day to day problems via frequent connect with people to understand the pain points & then utilize technology innovation to solve them. `,
+
+            profileDescription: `I am working in IT industry for last 2 years, specializing in turnarounds, revitalization and innovation. Ultimately delivering high quality useful products and services.
+            I am always striving to bring 100% to the work I do and my goal is to create useful tools which ease out functioning & greater return for businesses.`
         }
 
     }

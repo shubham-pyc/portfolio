@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../static/css/base.css';
 import '../../static/css/vendor.css';
 import '../../static/css/main.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const indexPage = ()=>{

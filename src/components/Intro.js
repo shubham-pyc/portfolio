@@ -61,7 +61,6 @@ class Intro extends React.Component {
 
                 <ul className="intro-social">
                     {this.getSocialLinks()}
-
                 </ul>
 
             </section>
