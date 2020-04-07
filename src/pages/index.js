@@ -5,13 +5,15 @@ import '../../static/css/base.css';
 import '../../static/css/vendor.css';
 import '../../static/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Helmet } from "react-helmet";
 
-
-const indexPage = ()=>{
+const indexPage = () => {
     return (
         <Layout>
-            
+            <Helmet>
+                <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'/>
+            </Helmet>
         </Layout>
-    );
-}
+            );
+        }
 export default indexPage;

@@ -87,7 +87,7 @@ class Header extends React.Component {
                                             spy={true}
                                             smooth={true}
                                             duration={500}
-                                            Contact={this.onToggle}
+                                            onClick={this.onToggle}
                                         >Contact</Link>
                                     </li>
 

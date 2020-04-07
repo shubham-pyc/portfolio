@@ -25,14 +25,13 @@ class About extends React.Component {
             email: "shubhamg2404@gmail.com",
             skillDescription: `I am a passionate innovator who works on creating useful tools which ease out functioning & enable real-time actions resulting in effective operations & greater ROI for businesses.
             I excel at analyzing pain areas, identifying values for any existing workflow or system and thus ideating & implementing new software products from head to tail to address identified concerns. I strive to constantly contribute in resolving day to day problems via frequent connect with people to understand the pain points & then utilize technology innovation to solve them. `,
-
             profileDescription: `I am working in IT industry for last 2 years, specializing in turnarounds, revitalization and innovation. Ultimately delivering high quality useful products and services.
             I am always striving to bring 100% to the work I do and my goal is to create useful tools which ease out functioning & greater return for businesses.`
         }
 
     }
     getSkillSection = () => {
-        return (<React.Fragment>
+        return (<ul>
             {this.state.skills.map(function (element, index) {
                 return (
                     <li key={index}>
@@ -40,7 +39,7 @@ class About extends React.Component {
                     </li>
                 )
             })}
-        </React.Fragment>)
+        </ul>)
     }
     componentWillMount() {
         this.formatedAbout = formatDescription(this.state.about);
@@ -55,16 +54,13 @@ class About extends React.Component {
 
                 <div className="row section-intro">
                     <div className="col-twelve">
-
                         <h5>About</h5>
                         <h1>Let me introduce myself.</h1>
-
                         <div className="intro-info">
                             <p className="lead">
                                 {this.formatedAbout}
                             </p>
                         </div>
-
                     </div>
                 </div>
 
@@ -98,9 +94,9 @@ class About extends React.Component {
                         <h3>Skills</h3>
                         <p>{this.formatedSkillDescription}</p>
 
-                        <ul>
-                            {this.getSkillSection()}
-                        </ul>
+
+                        {this.getSkillSection()}
+
 
                     </div>
 
