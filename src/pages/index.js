@@ -11,9 +11,10 @@ const indexPage = () => {
     return (
         <Layout>
             <Helmet>
-                <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'/>
+                <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+                <title>Shubham Gupta</title>
             </Helmet>
         </Layout>
-            );
-        }
+    );
+}
 export default indexPage;
