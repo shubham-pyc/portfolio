@@ -1,0 +1,174 @@
+{
+ "fullName": "Shubham Gupta",
+ "links": {
+  "linkedin": "https://www.linkedin.com/in/shubham-gupta-103929108/",
+  "github": "https://github.com/shubhamg2404"
+ },
+ "skills": [
+  "Javascript",
+  "ReactJS, NodeJs",
+  "Jquery/HTML/CSS",
+  "Python",
+  "Databases: Posgres, MySql, Cassandra",
+  "Rest",
+  "Google Analytics",
+  "Decentralized Applications (DApps)",
+  "Git/Github"
+ ],
+ "about": "Shubham is a problem solver who has an insatiable hunger for creating and learning new things. He is a voracious reader and an excellent researcher which helps him achieve solutions to problems he wants to solve. His ability to think out of the box sets him apart from the crowd.\nShubham is a programmer at heart and he loves to watch anime whenever he is free.\n",
+ "birthDate": "April 24, 1996",
+ "jobTitle": "Software Engineer",
+ "email": "shubhamg2404@gmail.com",
+ "skillDescription": "I am a passionate innovator who works on creating useful tools which ease out functioning & enable real-time actions resulting in effective operations & greater ROI for businesses.\n  I excel at analyzing pain areas, identifying values for any existing workflow or system and thus ideating & implementing new software products from head to tail to address identified concerns. I strive to constantly contribute in resolving day to day problems via frequent connect with people to understand the pain points & then utilize technology innovation to solve them. ",
+ "profileDescription": "I am working in IT industry for last 2 years, specializing in turnarounds, revitalization and innovation. Ultimately delivering high quality useful products and services.\n  I am always striving to bring 100% to the work I do and my goal is to create useful tools which ease out functioning & greater return for businesses.",
+ "workExperience": [
+  {
+   "position": "Software Engineer",
+   "type": "work",
+   "from": "Jul 2019",
+   "to": "Present",
+   "companyName": "Impetus",
+   "description": "- Created Flight Search Result(FSR) module for an aviation domain company&apos;s (Fortune 500) Digital Optimization (Experimentation) project. Did various optimization to improve performance and revenue.\n- Devised a unique way to perform a/b testing on single page application (react) which made them release independent. Thus reducing the feature release cycle from 44 days to 14 days.\n- Created a decentralized gambling platform on top of ethereum blockchain.\n- Analyzing systems, identifying problems and Ideating solutions \n- Designed &amp; implemented frameworks, defined technology standards, methodologies."
+  },
+  {
+   "position": "Associate Software Engineer",
+   "type": "work",
+   "from": "May 2018",
+   "to": "Jul 2019",
+   "companyName": "Impetus",
+   "description": "I am part of the aviation domain digital analytics and UI optimization team. We do user behavioral analytics and design/create a new User Interface for making the user experience optimized which generated 54 million dollars in the last quarter. \nMy responsibilities: \n     - Writing production level javascript code to enhance the user interface with accessibility features(aria)\n     - Writing tracking code to analyze how the user behaves on the website.\n- Code review of other team members\n- Collaborating with multiple teams to understand the new requirements and provide the best solution.\n- Looking after the whole lifecycle of A/B test using oracle maxymiser.\n\nI built an Intelligent program which\n1) Automates the code writing process which generates 60% of the code which is required. \n2) It simultaneously creates Stories and Subtasks according to the requirement on JIRA with appropriate story points and description\n3) Pushes code on GIT and Maximizer simultaneously\nThis helps us save 400 man-hours yearly and due to that, I was awarded as a Bright Beginner, an Award given to the new &amp; exceptional people in our organization."
+  }
+ ],
+ "education": [
+  {
+   "position": "Bachelor of Engineering (B.E.)",
+   "type": "education",
+   "from": "2014",
+   "to": "2018",
+   "companyName": "Rajiv Gandhi Prodyogiki Vishwavidyalaya",
+   "description": "I have done my Bachelor of Engineering focused in Information Technology.\nSome of the courses I took:\n- Cryptography\n- Algorithms and Data Structures\n- Machine Learning\n- Web development                   "
+  }
+ ],
+ "projects": [
+  {
+   "imageUrl": "images/portfolio/blockchain.png",
+   "projectName": "Nirvana",
+   "projectCategory": "Blockchain",
+   "projectLink": "https://github.com/Nirvana-Blockchain",
+   "liveLink": "",
+   "projectDescription": "An Open-source Blockchain Framework for the infrastrucutre setup of private Ethereum blockchain network\n- Contains a block explorer\n- Proof of authority validators dapp\n- Warehouse temperature and analytics dapp\n\n"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Digital Analytics and UI Optimization",
+   "projectCategory": "User Behavior Experimentation",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "I am part of the digital analytics and UI optimization team, we generated 54 Million Dollars in the last quarter through user behavioral analytics and design/create a new User Interface for making the user experience optimized.\nMy responsibilities: \n- Writing production level javascript code to enhance the user interface.\n- Writing tracking code to analyze how the user behaves on the website.\n- Code review of other team members\n- Writing an optimized bug-free code that never breaks with accessibility features (aria).\n- Collaborating with multiple teams of United Airlines to understand the new requirements and provide the best solution. \n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/chat-benefits.png",
+   "projectName": "Chat Microservice for a Social Media Website",
+   "projectCategory": "Microservice",
+   "projectLink": "http://www.vomvos.com",
+   "liveLink": "",
+   "projectDescription": "- Implemented chat and user notification microservice for a social networking website www.vomvos.com\n- Used STOMP protocol and simple message broker\n- Integrated Cassandra for faster reads and writes\n- Used Java SpringBoot for creating the microservice.\n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/hand-gestures.png",
+   "projectName": "Hand gesture recognition",
+   "projectCategory": "Deep Learning",
+   "projectLink": "https://github.com/shubhamg2404/Handgesture-Recognition",
+   "liveLink": "",
+   "projectDescription": "A Framework for training Neural Network with custom hand gestures. (GitHub link in project URL)\n- Implemented custom image collector which take images from webcam removes noise, resizes, converts RBG images to binary images and stores on disk\n- Created a custom image flattener to convert pixel data to useful information which can be fed to the neural network, applied feature engineering. \n- Built  setup script which automatically installs all required dependencies so the project is ready to run in one command\n- Forged gesture recognized which is the Neural Network trained by input images provided by the image collector, successfully recognizes new images from the webcam  \nAdvantages - \n1) Trainability - NN can be trained with this framework in 10 lines of code\n2) Scalability - New gestures can be added under 5 lines of code\n3) Configurability\n4) Reusability\n\n"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Google Batch Processing",
+   "projectCategory": "Analytics",
+   "projectLink": "http://www.united.com",
+   "liveLink": "",
+   "projectDescription": "-Architected and Designed an efficient library in Javascript for United Airlines which smartly sends 20 analytics call to Google Analytics server into a single HTTP request saving a ton of networks calls thus increasing overall performance of the website.\n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/chrome-extension.png",
+   "projectName": "Enhanced Empower",
+   "projectCategory": "Chrome Extension",
+   "projectLink": "https://github.com/shubhamg2404/empower_util",
+   "liveLink": "",
+   "projectDescription": "- Designed Chrome extension for office to display real-time in-office timings.\n- Automatically injecting working hours on a particular day in timesheets.\n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/snake.png",
+   "projectName": "Snake",
+   "projectCategory": "Game Development",
+   "projectLink": "https://shubhamg2404.github.io/snake-game/",
+   "liveLink": "",
+   "projectDescription": "A classic snake game demonstrating the use of Linked List.\n- Designed whole games on HTML canvas and wrote javascript for graphic design\n- Wrote Algorithm for moving snake properly in streamline flow\n- Implemented Collision detection between snake and apple with 100% accuracy by pixel\n- Implemented Controller for the snake in plain javascript \n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/tick-tac-toe.jpg",
+   "projectName": "Tic-Tac-Toe",
+   "projectCategory": "Game Development",
+   "projectLink": "https://shubhamg2404.github.io/tick-tack-toe/",
+   "liveLink": "",
+   "projectDescription": "- Designed an Online 2 player Tic-Tack-Toe Game customizable number of cells\n- Used Javascript and HTML.\n\n"
+  },
+  {
+   "imageUrl": "images/portfolio/arduino-04.png",
+   "projectName": "Natsu",
+   "projectCategory": "Computer Vision",
+   "projectLink": "https://github.com/shubhamg2404/NATSU",
+   "liveLink": "",
+   "projectDescription": "Created a Wireless Bluetooth controller Arduino robot which could be controlled through Hand Gestured.\n- Created Hand Recognization script with python used OpenCV library for Image Processing\n- Used Convexity Defects and Convex Hull algorithms for finding gestures.\n- Programmed Arduino microcontroller  for receiving signals from Bluetooth and send signals to motors accordingly  \n\n"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Line Follower",
+   "projectCategory": "Robotics",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "Developed an Arduino based robot programmed to follow a black line as its path. Implemented using IR sensors.\n\n"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Wireless Smart Light",
+   "projectCategory": "",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "Created Wirelessly controlled CFL(light bulb) thought Android application\n- Used Arduino with Bluetooth module and prebuild android application to send the signals to Arduino.\n"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Key Logger using Python",
+   "projectCategory": "",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "- While learning python created a keylogger which logs all the keystrokes of the user\n- The script was intelligent to recognize whenever the victim typed his email and passwords and saved it into a different file"
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Wireless Desktop Remote",
+   "projectCategory": "",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "- Created a smart script which reads your emails and takes actions according to the subject of the email\n- Created a bat script to be executed through outlook."
+  },
+  {
+   "imageUrl": "",
+   "projectName": "Water Overflow Alarm",
+   "projectCategory": "",
+   "projectLink": "",
+   "liveLink": "",
+   "projectDescription": "- Created a water overflow alarm when I was just 14 years old to check if the water tank is full\n- Designed a waterproof circuit and placed it into the water tank of our hours connected it to a buzzer near my room."
+  },
+  {
+   "imageUrl": "images/portfolio/web-development.png",
+   "projectName": "eTraverse",
+   "projectCategory": "Webdevelpment",
+   "projectLink": "http://www.etraverse.com",
+   "liveLink": "",
+   "projectDescription": "Worked on creating a website for a startup focused on education in Africa.\n- Wrote a custom javascript framework for faster rendering and content delivery.\n- Designed the layout and optimized code for faster serving in the African region.\n\n"
+  }
+ ]
+}

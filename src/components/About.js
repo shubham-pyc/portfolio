@@ -3,36 +3,11 @@ import { formatDescription } from "../utils/formating";
 class About extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            skills: [
-                "Javascript",
-                "ReactJS, NodeJs",
-                "Jquery/HTML/CSS",
-                "Python",
-                "Databases: Posgres, MySql, Cassandra",
-                "Rest",
-                "Google Analytics",
-                "Decentralized Applications (DApps)",
-                "Git/Github",
-            ],
-            about: `
-                Shubham is a problem solver who has an insatiable hunger for creating and learning new things. He is a voracious reader and an excellent researcher which helps him achieve solutions to problems he wants to solve. His ability to think out of the box sets him apart from the crowd.
-                Shubham is a programmer at heart and he love to watch animes whenever he is free.
-            `,
-            birthDate: "April 24, 1996",
-            fullName: "Shubham Gupta",
-            jobTitle: "Software Engineer",
-            email: "shubhamg2404@gmail.com",
-            skillDescription: `I am a passionate innovator who works on creating useful tools which ease out functioning & enable real-time actions resulting in effective operations & greater ROI for businesses.
-            I excel at analyzing pain areas, identifying values for any existing workflow or system and thus ideating & implementing new software products from head to tail to address identified concerns. I strive to constantly contribute in resolving day to day problems via frequent connect with people to understand the pain points & then utilize technology innovation to solve them. `,
-            profileDescription: `I am working in IT industry for last 2 years, specializing in turnarounds, revitalization and innovation. Ultimately delivering high quality useful products and services.
-            I am always striving to bring 100% to the work I do and my goal is to create useful tools which ease out functioning & greater return for businesses.`
-        }
 
     }
     getSkillSection = () => {
         return (<ul>
-            {this.state.skills.map(function (element, index) {
+            {this.props.data.skills.map(function (element, index) {
                 return (
                     <li key={index}>
                         <strong>{element}</strong>
@@ -42,9 +17,9 @@ class About extends React.Component {
         </ul>)
     }
     componentWillMount() {
-        this.formatedAbout = formatDescription(this.state.about);
-        this.formatedSkillDescription = formatDescription(this.state.skillDescription);
-        this.formatedProfileDescription = formatDescription(this.state.profileDescription);
+        this.formatedAbout = formatDescription(this.props.data.about);
+        this.formatedSkillDescription = formatDescription(this.props.data.skillDescription);
+        this.formatedProfileDescription = formatDescription(this.props.data.profileDescription);
     }
 
 
@@ -73,19 +48,19 @@ class About extends React.Component {
                         <ul className="info-list">
                             <li>
                                 <strong>Fullname:</strong>
-                                <span>{this.state.fullName}</span>
+                                <span>{this.props.data.fullName}</span>
                             </li>
                             <li>
                                 <strong>Birth Date:</strong>
-                                <span>{this.state.birthDate}</span>
+                                <span>{this.props.data.birthDate}</span>
                             </li>
                             <li>
                                 <strong>Job:</strong>
-                                <span>{this.state.jobTitle}</span>
+                                <span>{this.props.data.jobTitle}</span>
                             </li>
                             <li>
                                 <strong>Email:</strong>
-                                <span>{this.state.email}</span>
+                                <span>{this.props.data.email}</span>
                             </li>
                         </ul>
                     </div>

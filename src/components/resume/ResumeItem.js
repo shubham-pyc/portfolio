@@ -1,14 +1,6 @@
 import React from "react";
 import { formatDescription } from "../../utils/formating";
-var item = {
-    position: "",
-    type: "",
-    from: "",
-    to: "",
-    companyName: "",
-    description: ""
 
-}
 
 const ResumeItem = (props) => {
     const { item } = props;

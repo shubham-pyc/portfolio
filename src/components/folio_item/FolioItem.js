@@ -27,10 +27,7 @@ class FolioItem extends React.Component {
 
     getProjectLink = () => {
         if (this.props.data.projectLink) {
-            return <a href={this.props.data.projectLink} target="_blank">Code</a>
-        }
-        if (this.props.data.liveLink) {
-            return <a href={this.props.data.liveLink} target="_blank">Demo</a>
+            return <a href={this.props.data.projectLink} target="_blank">See Project</a>
         }
 
     }
@@ -41,6 +38,14 @@ class FolioItem extends React.Component {
     }
 
     render() {
+
+        if (!this.props.data.imageUrl) {
+            return (
+                <React.Fragment></React.Fragment>
+            )
+        }
+
+
         return (
 
             <React.Fragment>

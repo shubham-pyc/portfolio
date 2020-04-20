@@ -1,24 +1,18 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { graphql, useStaticQuery } from "gatsby";
 class Intro extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            fullName: "Shubham Gupta",
-            links: {
-                linkedin: "https://www.linkedin.com/in/shubham-gupta-103929108/",
-                github: "https://github.com/shubhamg2404"
-            }
-        }
 
     }
 
     getSocialLinks = () => {
         var retValue = [];
-        for (var link in this.state.links) {
+        for (var link in this.props.data.links) {
             var cssClass = "fa fa-" + link;
             retValue.push(
-                <li key={link}><a href={this.state.links[link]} target="_blank"><i className={cssClass}></i></a></li>
+                <li key={link}><a href={this.props.data.links[link]} target="_blank"><i className={cssClass}></i></a></li>
             )
         }
         return retValue;
@@ -27,6 +21,7 @@ class Intro extends React.Component {
 
 
     render() {
+
         return (
             <section id="intro">
 
