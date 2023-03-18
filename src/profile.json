@@ -86,7 +86,6 @@
   }
  ],
  "projects": [
-  
   {
    "projectName": "C- Compiler",
    "imageUrl": "images/portfolio/compiler.jpg",
@@ -98,7 +97,7 @@
    "projectName": "Image Segmentation Using K-Means Clustering Implemented in CUDA",
    "imageUrl": "images/portfolio/covid.png",
    "projectCategory": "Computer Vision/ High Performance Computing",
-   "projectLink": "",
+   "projectLink": "https://github.com/shubham-pyc/Image-Segmentation",
    "projectDescription": ""
   },
   {
