@@ -74,14 +74,14 @@ function mergerProfiles(newProfile, defaultProfile) {
 exports.onPreBuild = async () => {
     var defaultProfile;
     try {
-        var newProfile = await scrapper({
-            url: "/in/shubham-gupta-103929108/"
-        })
+        // var newProfile = await scrapper({
+        //     url: "/in/shubham-gupta-103929108/"
+        // })
 
-        var defaultProfile = JSON.parse(fs.readFileSync(`${__dirname}/src/default_profile.json`, 'utf-8'));
+        var combinedProfile = JSON.parse(fs.readFileSync(`${__dirname}/src/default_profile.json`, 'utf-8'));
 
 
-        var combinedProfile = mergerProfiles(newProfile, defaultProfile)
+        // var combinedProfile = mergerProfiles(newProfile, defaultProfile)
 
         fs.writeFileSync(`${__dirname}/src/profile.json`, JSON.stringify(combinedProfile, undefined, 1));
 

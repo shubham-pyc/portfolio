@@ -16,7 +16,7 @@ class Footer extends React.Component {
 
                         <ul className="footer-social">
                             <li><a href="https://www.linkedin.com/in/shubham-gupta-103929108/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/shubhamg2404" target="_blank"><i className="fa fa-github"></i></a></li>
+                            <li><a href="https://github.com/shubham-pyc" target="_blank"><i className="fa fa-github"></i></a></li>
                         </ul>
 
                     </div>
