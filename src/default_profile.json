@@ -95,6 +95,13 @@
    "projectDescription": ""
   },
   {
+    "projectName": "Social Media Website",
+    "imageUrl": "images/portfolio/social-media.png",
+    "projectCategory": "Fullstack Development",
+    "projectLink": "https://social-media.pages.dev/",
+    "projectDescription": "Features: Like Button, Comment Section, Image Upload, Status Update, Login\n -Tech: React, Cloudflare Workers"
+   },
+  {
    "projectName": "Image Segmentation Using K-Means Clustering Implemented in CUDA",
    "imageUrl": "images/portfolio/covid.png",
    "projectCategory": "Computer Vision/ High Performance Computing",
