@@ -86,7 +86,13 @@
   }
  ],
  "projects": [
-  
+  {
+    "projectName": "Collaborative Text Editor",
+    "imageUrl": "images/portfolio/editor.gif",
+    "projectCategory": "Realtime WebProject",
+    "projectLink": "https://github.com/shubham-pyc/collaborative-text-editor",
+    "projectDescription": "This project allows multiple users to collaboratively edit and share text in real-time. It provides a seamless editing experience with instant updates across all connected users."
+   },
   {
    "projectName": "C- Compiler",
    "imageUrl": "images/portfolio/compiler.jpg",
